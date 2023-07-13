@@ -22,10 +22,21 @@
      &none               &kp Q       &kp W       &kp E             &kp R      &kp T      &kp Y        &kp U       &kp I       &kp O                &kp P    &none
 &kp ESCAPE  &mt LEFT_CONTROL A  &mt LALT S  &mt LCMD D  &mt LEFT_SHIFT F      &kp G      &kp H  &mt RSHFT J  &mt RCMD K  &mt RALT L  &mt RCTRL SEMICOLON  &kp SQT
      &none               &kp Z       &kp X       &kp C             &kp V      &kp B      &kp N        &kp M   &kp COMMA     &kp DOT             &kp FSLH    &none
-                                                 &none          &kp BSPC  &kp SPACE    &kp RET      &kp TAB       &none
+                                                 &none        &lt 1 BSPC  &kp SPACE    &kp RET    &lt 1 TAB       &none
             >;
 
             label = "Main";
+        };
+
+        Num {
+            bindings = <
+&kp TILDE            &kp EXCL        &kp AT_SIGN           &kp HASH           &kp DOLLAR   &kp PERCENT    &kp CARET            &kp AMPS          &kp ASTRK           &kp LPAR                    &kp RPAR  &kp UNDERSCORE
+&kp GRAVE  &mt LCTRL NUMBER_1  &mt LALT NUMBER_2  &mt LCMD NUMBER_3  &mt LSHIFT NUMBER_4  &kp NUMBER_5       &kp N6  &mt RSHFT NUMBER_7  &mt RCMD NUMBER_8  &mt RALT NUMBER_9  &mt RIGHT_CONTROL NUMBER_0       &kp MINUS
+    &none               &none              &none              &none                &none         &none        &none               &none              &none              &none                       &none           &none
+                                                              &none                &none         &none        &none               &none              &none
+            >;
+
+            label = "🔢";
         };
     };
 };
